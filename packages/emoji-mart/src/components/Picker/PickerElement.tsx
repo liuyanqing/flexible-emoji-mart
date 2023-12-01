@@ -10,7 +10,7 @@ export default class PickerElement extends ShadowElement {
   static Props = PickerProps
 
   constructor(props) {
-    super(props, { styles: PickerStyles })
+    super(props, { styles: PickerStyles + (props.pickerStyles || '') })
   }
 
   async connectedCallback() {

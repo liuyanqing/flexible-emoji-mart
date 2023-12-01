@@ -71,6 +71,9 @@ export default {
   perLine: {
     value: 9,
   },
+  pickerStyles: {
+    value: '',
+  },
   previewEmoji: {
     value: null,
   },
@@ -112,6 +115,7 @@ export default {
   onAddCustomEmoji: null,
   onClickOutside: null,
   onEmojiSelect: null,
+  onEmojiScrollTo: null,
 
   // Deprecated
   stickySearch: {

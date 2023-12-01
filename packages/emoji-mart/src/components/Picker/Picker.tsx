@@ -290,6 +290,10 @@ export default class Picker extends Component {
     const setFocusedCategory = (categoryId) => {
       if (categoryId != navigation.state.categoryId) {
         navigation.setState({ categoryId })
+        const { onEmojiScrollTo } = this.props
+        if (typeof onEmojiScrollTo === 'function') {
+          onEmojiScrollTo({ categoryId })
+        }
       }
     }
 

@@ -1,15 +1,15 @@
-# `@emoji-mart/react`
+# `@flexible-emoji-mart/react`
 
-A React wrapper for [EmojiMart](https://missiveapp.com/open/emoji-mart).
+A React wrapper for [EmojiMart](https://missiveapp.com/open/flexible-emoji-mart).
 
 ## 🧑‍💻 Usage
 ```sh
-npm install --save emoji-mart @emoji-mart/data @emoji-mart/react
+npm install --save flexible-emoji-mart @flexible-emoji-mart/data @flexible-emoji-mart/react
 ```
 
 ```js
-import data from '@emoji-mart/data'
-import Picker from '@emoji-mart/react'
+import data from '@flexible-emoji-mart/data'
+import Picker from '@flexible-emoji-mart/react'
 
 function App() {
   return (
@@ -19,4 +19,4 @@ function App() {
 ```
 
 ## 📚 Documentation
-See https://github.com/missive/emoji-mart#react
+See https://github.com/missive/flexible-emoji-mart#react
