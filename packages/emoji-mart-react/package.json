@@ -6,8 +6,8 @@
   "homepage": "https://missiveapp.com/open/emoji-mart",
   "repository": {
     "type": "git",
-    "url": "https://github.com/missive/emoji-mart",
-    "directory": "packages/emoji-mart-react"
+    "url": "https://github.com/liuyanqing/flexible-emoji-mart",
+    "directory": "packages/flexible-emoji-mart-react"
   },
   "source": "react.tsx",
   "types": "dist/index.d.ts",
