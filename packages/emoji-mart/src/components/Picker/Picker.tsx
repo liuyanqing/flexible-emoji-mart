@@ -609,6 +609,11 @@ export default class Picker extends Component {
 
   handleCategoryClick = ({ category, i }) => {
     this.scrollTo(i == 0 ? { row: -1 } : { categoryId: category.id })
+
+    const { onClickCategory } = this.props
+    if (typeof onClickCategory === 'function') {
+      onClickCategory({ category, i })
+    }
   }
 
   handleEmojiOver(pos) {

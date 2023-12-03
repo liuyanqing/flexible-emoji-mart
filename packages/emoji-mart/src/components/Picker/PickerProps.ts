@@ -113,6 +113,7 @@ export default {
   getImageURL: null,
   getSpritesheetURL: null,
   onAddCustomEmoji: null,
+  onClickCategory: null,
   onClickOutside: null,
   onEmojiSelect: null,
   onEmojiScrollTo: null,
