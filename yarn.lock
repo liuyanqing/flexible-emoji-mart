@@ -468,7 +468,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@flexible-emoji-mart/react@workspace:packages/emoji-mart-react"
   peerDependencies:
-    flexible-emoji-mart: ^5.2
+    flexible-emoji-mart: "*"
     react: ^16.8 || ^17 || ^18
   languageName: unknown
   linkType: soft
