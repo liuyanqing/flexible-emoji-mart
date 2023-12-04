@@ -1,24 +1,6 @@
 // @ts-nocheck
 import { Store } from '../helpers'
 
-const DEFAULTS = [
-  '+1',
-  'grinning',
-  'kissing_heart',
-  'heart_eyes',
-  'laughing',
-  'stuck_out_tongue_winking_eye',
-  'sweat_smile',
-  'joy',
-  'scream',
-  'disappointed',
-  'unamused',
-  'weary',
-  'sob',
-  'sunglasses',
-  'heart',
-]
-
 let Index: any | null = null
 
 function add(emoji: { id: string }) {
@@ -42,13 +24,6 @@ function get({ maxFrequentRows, perLine }) {
 
   if (!Index) {
     Index = {}
-
-    for (let i in DEFAULTS.slice(0, perLine)) {
-      const emojiId = DEFAULTS[i]
-
-      Index[emojiId] = perLine - i
-      emojiIds.push(emojiId)
-    }
 
     return emojiIds
   }
@@ -91,4 +66,4 @@ function get({ maxFrequentRows, perLine }) {
   return emojiIds
 }
 
-export default { add, get, DEFAULTS }
+export default { add, get }
