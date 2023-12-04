@@ -18,7 +18,7 @@
     "prepublishOnly": "yarn build"
   },
   "peerDependencies": {
-    "flexible-emoji-mart": "^5.2",
+    "flexible-emoji-mart": "^",
     "react": "^16.8 || ^17 || ^18"
   },
   "files": [
